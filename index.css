@@ -23,16 +23,13 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import url("https://image.flaticon.com/icons/svg/2979/2979348.svg");
-@import url("https://image.flaticon.com/icons/svg/820/820374.svg");
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
 html{
     font-size: 10px;
     font-family: 'Roboto Mono', monospace;
-    width: 100vw;
+    max-width: 100vw;
 }
 body{
     width: 100%;
@@ -41,11 +38,6 @@ body{
     text-align: center;
 
 }
-/* .container{ 
-
- } */
-
-
 a{
     color: white;
     font-size: 2rem;
@@ -58,15 +50,24 @@ a{
 }
 .plan{
     background-color: #FF764E;
-    
+}
+.plan:hover{
+    color: #FF764E;
+    background-color: blanchedalmond;
 }
 .learn{
     background-color: #5ED3EB;
-    
+}
+.learn:hover{
+    color: #5ED3EB;
+    background-color: blanchedalmond;
 }
 .involved{
-    background-color: #FFCD69;
-    
+    background-color: #FFCD69;   
+}
+.involved:hover{
+    color: #FFCD69;
+    background-color: blanchedalmond;
 }
 header img{
     width: 30rem;
@@ -76,21 +77,16 @@ header img{
     position: relative;
     top: 10rem;
 }
-h1{
-    font-size: 4.8rem;
+#park-name {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 7rem;
     display: inline-block;
     text-align: center;
-    border: black solid 1px;
-    /* height: 30rem; */
     width: 100rem;
     position: relative;
     bottom: 10rem;
 }
-.park-name{
-    font-family: 'Chelsea Market', cursive;
-}
 .intro-first{
-    border: black solid 1px;
     display: block;
     text-align: center;
     width: 80rem;
@@ -102,7 +98,7 @@ h1{
 }
 .intro-second{
     box-sizing: border-box;
-    width: 50rem;
+    width: 45rem;
     display: inline-block;
     padding: 3.5rem;
     position: relative;
@@ -112,7 +108,6 @@ h1{
 header p{
      font-size: 2.5rem;
 }
-
 .main-section{
     font-size: 2.5rem;
     background-color: #DDB9A3;
@@ -134,21 +129,30 @@ header p{
     text-align: center;
     margin:0 auto;
     width: 20%;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+}
+.second-extra-information-image{
+    margin-top: 5rem;
 }
 span{
     font-weight: bold;
 }
-footer{
+.footer-background{
+    margin-top: 10rem;
+    max-width: 100%;
     background-color: #F9E7DC;
-}
-footer img{
+    height: 50rem;
     width: 100%;
-    height:100%;
-    border: solid black 1px;
-    box-sizing: border-box;
-    height: 50vh;
-    overflow: hidden;
-    /* height: 20rem; */
-    
+}
+footer{
+    background-image: url("assets/footer_img.jpg");
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 40vh;
+}
+footer nav a{
+    margin:5rem 5%;
+    margin-top: 35rem;
 }
