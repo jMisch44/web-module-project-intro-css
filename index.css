@@ -32,21 +32,19 @@ time, mark, audio, video {
 html{
     font-size: 10px;
     font-family: 'Roboto Mono', monospace;
+    width: 100vw;
 }
 body{
     width: 100%;
     margin:0 auto;
-    padding: 2%;
+    padding-top: 2%;
     text-align: center;
 
 }
 /* .container{ 
-    
+
  } */
-h1{
-    font-size: 4.8rem;
-    font-family: 'Chelsea Market', cursive;
-}
+
 
 a{
     color: white;
@@ -70,14 +68,55 @@ a{
     background-color: #FFCD69;
     
 }
-
+header img{
+    border: solid black 1px;
+    width: 30rem;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 0%;
+    position: relative;
+    /* right: 20rem; */
+    top: 10rem;
+}
+h1{
+    font-size: 4.8rem;
+    font-family: 'Chelsea Market', cursive;
+    display: inline-block;
+    text-align: center;
+    border: black solid 1px;
+    /* height: 30rem; */
+    width: 100rem;
+    position: relative;
+    bottom: 10rem;
+}
+.intro-first{
+    display: block;
+    position: relative;
+    bottom: 2rem;
+}
+header p{
+    /* display: inline-block; */
+    font-size: 2rem;
+    width: 80rem;
+    position: relative;
+    left: 50rem;
+}
 
 .main-section{
+    font-size: 2rem;
     background-color: #DDB9A3;
 }
 .extra-information img{
     width: 10rem;
 }
+.extra-information{
+    text-align: center;
+    margin:0 auto;
+    width: 40%;
+}
 footer{
     background-color: #F9E7DC;
+}
+footer img{
+    width: 100%;
 }
