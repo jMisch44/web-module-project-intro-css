@@ -26,7 +26,25 @@ time, mark, audio, video {
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 html{
     font-size: 10px;
     font-family: 'Roboto Mono', monospace;
+}
+.plan{
+    color: #FF764E;
+
+}
+.learn{
+    color: #5ED3EB;
+}
+.involved{
+    color: #FFCD69;
+}
+
+.main-section{
+    background-color: #DDB9A3;
+}
+footer{
+    background-color: #F9E7DC;
 }
