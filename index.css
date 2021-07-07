@@ -26,24 +26,57 @@ time, mark, audio, video {
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://image.flaticon.com/icons/svg/2979/2979348.svg");
+@import url("https://image.flaticon.com/icons/svg/820/820374.svg");
 
 html{
     font-size: 10px;
     font-family: 'Roboto Mono', monospace;
 }
-.plan{
-    color: #FF764E;
+body{
+    width: 100%;
+    margin:0 auto;
+    padding: 2%;
+    text-align: center;
 
 }
+/* .container{ 
+    
+ } */
+h1{
+    font-size: 4.8rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+a{
+    color: white;
+    font-size: 2rem;
+    padding: 1%;
+    margin: 0 5%;
+    border-radius: 15px;
+    display: inline-block;
+    text-decoration: none;
+    width: 20rem;
+}
+.plan{
+    background-color: #FF764E;
+    
+}
 .learn{
-    color: #5ED3EB;
+    background-color: #5ED3EB;
+    
 }
 .involved{
-    color: #FFCD69;
+    background-color: #FFCD69;
+    
 }
+
 
 .main-section{
     background-color: #DDB9A3;
+}
+.extra-information img{
+    width: 10rem;
 }
 footer{
     background-color: #F9E7DC;
