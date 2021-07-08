@@ -50,24 +50,30 @@ a{
 }
 .plan{
     background-color: #FF764E;
+    transition: .3s;
 }
 .plan:hover{
     color: #FF764E;
     background-color: blanchedalmond;
+    transform: rotate(5deg);
 }
 .learn{
     background-color: #5ED3EB;
+    transition: .3s;
 }
 .learn:hover{
     color: #5ED3EB;
     background-color: blanchedalmond;
+    transform: rotate(-5deg);
 }
 .involved{
-    background-color: #FFCD69;   
+    background-color: #FFCD69; 
+    transition: .3s;  
 }
 .involved:hover{
     color: #FFCD69;
     background-color: blanchedalmond;
+    transform: rotate(5deg);
 }
 header img{
     width: 30rem;
@@ -141,7 +147,7 @@ span{
     margin-top: 10rem;
     max-width: 100%;
     background-color: #F9E7DC;
-    height: 50rem;
+    height: 55rem;
     width: 100%;
 }
 footer{
@@ -150,9 +156,9 @@ footer{
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
 }
 footer nav a{
     margin:5rem 5%;
-    margin-top: 35rem;
+    margin-top: 42rem;
 }
